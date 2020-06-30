@@ -39,9 +39,10 @@ public class CodeTable {
      * @param className for byte code.
      * @return class name of desired byte code.
      */
-    public static String getClassName(String className){
-        
-        return codeTable.get(className);
-        
+//    public static String getClassName(String className){
+//        return codeTable.get(className);
+//    }
+    public static String getClassName(String key){
+        return codeTable.get(key);
     }
 }

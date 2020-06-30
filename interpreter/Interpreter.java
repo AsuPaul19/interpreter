@@ -20,9 +20,7 @@ import java.io.*;
  * </pre>
  */
 public class Interpreter {
-
     private ByteCodeLoader byteCodeLoader;
-
     public Interpreter(String codeFile) {
         try {
             CodeTable.init();
